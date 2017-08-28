@@ -1,0 +1,53 @@
+/* ------------------------------
+   CHAPTER ELEMENTS
+------------------------------ */
+#gallerytitle {
+	padding-left: 7px;
+	padding-top: 6px;
+	padding-bottom: 4px;
+	width: 750px;
+	border: 5px rgb(204, 204, 0);
+	border-style: ridge;
+	background: rgb(204, 204, 0);
+	line-height: 35px;
+	box-sizing: border-box;
+}
+
+#gallerytitle1 {
+	padding-left: 9px;
+	padding-top: 6px;
+	padding-bottom: 4px;
+	width: 350px;
+	background: rgb(204, 204, 0);
+	line-height: 25px;
+	margin-left: 5px;
+}
+
+/* ------------------------------
+   MEDIAQUERIES LAYOUT
+------------------------------ */
+@media only screen and (max-width: 800px) {
+	#gallerytitle {
+		width: 100%;
+		box-sizing: border-box;
+	}
+	#gallerytitle1 {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+}
+
+/* ------------------------------
+   MEDIAQUERIES[SP]LAYOUT
+------------------------------ */
+@media only screen and (max-width: 768px) {
+	#gallerytitle {
+		width: 100%;
+	}
+	#gallerytitle1 {
+		width: 100%;
+		left: auto;
+	}
+
+}
