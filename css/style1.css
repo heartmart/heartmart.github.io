@@ -1,0 +1,48 @@
+/* ------------------------------
+   CHAPTER ELEMENTS
+------------------------------ */
+.loopSliderWrap {
+	top: 0;
+	left: 0;
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+}
+
+.loopSlider {
+	margin: 0 auto;
+	width: 750px;
+	height: 150px;
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.loopSlider ul {
+	height: 150px;
+	float: left;
+	overflow: hidden;
+}
+
+.loopSlider ul li {
+	width: 150px;
+	height: 150px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+
+/* ------------------------------
+   CLEARFIX ELEMENTS
+------------------------------ */
+.loopSliderWrap:before,
+.loopSliderWrap:after,
+.loopSlider ul:before,
+.loopSlider ul:after {
+	content: " ";
+	display: table;
+}
+.loopSliderWrap:after,
+.loopSlider ul:after {clear: both;}
+.loopSliderWrap,
+.loopSlider ul {*zoom: 1;}
