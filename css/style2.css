@@ -84,13 +84,13 @@
 
 .slider .btnPrev {
 	left: 0;
-	background: url(http://m.msmstatic.com/1715000000/btnPrev.png) no-repeat center right;
+	background: url(https://m.msmstatic.com/1715000000/btnPrev.png) no-repeat center right;
 	background-color: rgba(0,0,0,0.4);
 }
 
 .slider .btnNext {
 	right: 0;
-	background: url(http://m.msmstatic.com/1715000000/btnNext.png) no-repeat center left;
+	background: url(https://m.msmstatic.com/1715000000/btnNext.png) no-repeat center left;
 	background-color: rgba(0,0,0,0.4);
 }
 
